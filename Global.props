@@ -30,7 +30,7 @@
     <AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json" Link="stylecop.json" Visible="false" />
   </ItemGroup>
 
-  <PropertyGroup Condition="'$(TargetFramework)'=='net461' or '$(TargetFramework)'=='net47'">
+  <PropertyGroup Condition="'$(TargetFramework)'=='net461' or '$(TargetFramework)'=='net472'">
     <DefineConstants>$(DefineConstants);NETFRAMEWORK</DefineConstants>
   </PropertyGroup>
 
