@@ -40,7 +40,6 @@ namespace FubarDev.FtpServer
         private readonly IListenerService _serverListener;
         private readonly ILogger<FtpServer>? _log;
         private readonly Task _clientReader;
-        
         private readonly Timer? _connectionTimeoutChecker;
 
         /// <summary>
